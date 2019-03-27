@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aae2a66c-9d56-443f-b64e-117ae39a07c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/complete_spinetta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/complete_spinetta.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw_songs_3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw_songs_3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataset_builder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_builder.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_predictor" beforeDir="false" afterPath="$PROJECT_DIR$/text_predictor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_predictor/text_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/text_predictor/text_predictor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="output.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_predictor/data/spinetta/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="30">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_predictor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text_predictor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/text_predictor/text_predictor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="235">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file leaf-file-name="data_provider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_predictor/data_provider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="83" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="83" />
+            <state relative-caret-position="285">
+              <caret line="19" column="90" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="90" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -52,8 +52,8 @@
       <file leaf-file-name="rnn_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text_predictor/rnn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="165">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -66,6 +66,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>100000</find>
+      <find>SEQUENCE_LENGTH</find>
+      <find>SEQUENCE_LENGTH</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,8 +76,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/text_predictor/text_predictor.py" />
         <option value="$PROJECT_DIR$/text_predictor/data_provider.py" />
+        <option value="$PROJECT_DIR$/text_predictor/text_predictor.py" />
       </list>
     </option>
   </component>
@@ -207,12 +209,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.6257143" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="7" visible="true" weight="0.35714287" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
@@ -302,20 +305,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_predictor/rnn_model.py">
+    <entry file="file://$PROJECT_DIR$/text_predictor/data/spinetta/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_predictor/text_predictor.py">
+    <entry file="file://$PROJECT_DIR$/text_predictor/rnn_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -324,18 +324,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/text_predictor/data_provider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="285">
+          <caret line="19" column="90" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="90" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_predictor/data/spinetta/output.txt">
+    <entry file="file://$PROJECT_DIR$/text_predictor/text_predictor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="235">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
