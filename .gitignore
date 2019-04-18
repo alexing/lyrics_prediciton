@@ -1,6 +1,8 @@
+
 config.py
 .DS_Store
-data/spinetta/tensorboard/*
+.idea/
+rnn_predictor/data/spinetta/tensorboard/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
