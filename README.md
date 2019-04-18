@@ -22,3 +22,10 @@ Pulled lyrics from Genius API. Run two different kind of models and compared the
 This whole project has been created using [Python 3](https://www.python.org/downloads/) and [Jupyter Notebook](http://jupyter.org/)
 
 I created the databases with [pandas](https://pandas.pydata.org/)
+
+## Sources:
+[Predicting Logic’s Lyrics With Machine Learning](https://towardsdatascience.com/predicting-logics-lyrics-with-machine-learning-9e42aff63730) by Hans Kamin
+
+[A Beginner's Guide to LSTMs and Recurrent Neural Networks](https://skymind.ai/wiki/lstm)
+
+[Text Predictor - Generating Rap Lyrics 📄](https://towardsdatascience.com/text-predictor-generating-rap-lyrics-with-recurrent-neural-networks-lstms-c3a1acbbda79) by Greg Surma
