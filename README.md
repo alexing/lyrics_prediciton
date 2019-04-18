@@ -6,7 +6,7 @@
 Currently done:
   - Lyrics in Spanish from [Luis Alberto Spinetta](https://en.wikipedia.org/wiki/Luis_Alberto_Spinetta)
 
-Pulled lyrics from Genius API. Run two different kind of models and compared the modelling, the development and the outcome.
+Pulled lyrics from Genius API and guided myself with Spotify Web API. Run two different kind of models and compared the modelling, the development and the outcome.
 
 ## To check the dataset building, go [here](dataset_builder.ipynb).
 ## To check the markov chain analysis, go [here](markov.ipynb).
