@@ -7,6 +7,9 @@ import numpy as np
 import time
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+
 
 # Args
 if len(sys.argv) != 2:
@@ -94,10 +97,21 @@ def sample_text(sess, data_provider, iteration):
     output.close()
 
 def plot(data, x_label, y_label):
-    plt.plot(range(len(data)), data)
-    plt.title(dataset)
-    plt.xlabel(x_label)
-    plt.ylabel(y_label)
+
+    fig, ax = plt.subplots(figsize=(30, 15))
+    ax = sns.pointplot(x=list(range(len(data))), y=data, color="coral", scale=2)
+    plt.xlabel(x_label, fontsize=20)
+    plt.ylabel(y_label, fontsize=20)
+    plt.title('Learning curve', fontsize=25)
+    for tick in ax.xaxis.get_major_ticks():
+        tick.label.set_fontsize(20)
+    for tick in ax.yaxis.get_major_ticks():
+        tick.label.set_fontsize(20)
+    every_nth = 20
+    for n, label in enumerate(ax.xaxis.get_ticklabels()):
+        if n % every_nth != 0:
+            label.set_visible(False)
+    sns.despine()
     plt.savefig(data_dir + "/" + y_label + ".png", bbox_inches="tight")
     plt.close()
 
