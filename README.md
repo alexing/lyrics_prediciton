@@ -12,7 +12,7 @@ Pulled lyrics from Genius API and guided myself with Spotify Web API. Run two di
 ## To check the markov chain analysis, go [here](markov.ipynb).
 ## To check the rnn model, go [here](rnn_predictor/).
 
-## To see the Medium article published in my account, go [here](https://medium.com/p/88b8c66a6e3d/edit). (Spanish)
+## To see the Medium article published in my account, go [here](https://medium.com/@alexing/oraciones-artificiales-88b8c66a6e3d). (Spanish)
 
 <!--- 
 ## To see the Medium article published in Towards Data Science, go [here](https://towardsdatascience.com/spotify-rewrapped-e2a7cc94fb4e)
