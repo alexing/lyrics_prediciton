@@ -79,7 +79,7 @@ def rnn():
                     smooth_losses.append(smooth_loss)
                     temp_losses = []
                     #for backup and graph manipulation
-                    with open('data/smooth_losses.txt', 'w') as f:
+                    with open(data_dir + '/smooth_losses.txt', 'w') as f:
                         f.write(str(smooth_losses))
                     plot(smooth_losses, "iterations (thousands)", "loss")
                     print('{{"metric": "iteration", "value": {}}}'.format(iteration))
