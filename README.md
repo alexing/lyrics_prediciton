@@ -5,6 +5,7 @@
 
 Currently done:
   - Lyrics in Spanish from [Luis Alberto Spinetta](https://en.wikipedia.org/wiki/Luis_Alberto_Spinetta)
+  - Lyrics in English from [Bob Dylan](https://en.wikipedia.org/wiki/Bob_Dylan)
 
 Pulled lyrics from Genius API and guided myself with Spotify Web API. Run two different kind of models and compared the modelling, the development and the outcome.
 
@@ -12,12 +13,8 @@ Pulled lyrics from Genius API and guided myself with Spotify Web API. Run two di
 ## To check the markov chain analysis, go [here](markov.ipynb).
 ## To check the rnn model, go [here](rnn_predictor/).
 
-## To see the Medium article published in my account, go [here](https://medium.com/@alexing/oraciones-artificiales-88b8c66a6e3d). (Spanish)
-
-<!--- 
-## To see the Medium article published in Towards Data Science, go [here](https://towardsdatascience.com/spotify-rewrapped-e2a7cc94fb4e)
--->
-
+## To see the Medium article published in Ciencia y Datos about L. A. Spinetta, go [here](https://medium.com/@alexing/oraciones-artificiales-88b8c66a6e3d). (Spanish)
+## To see the Medium article published in Towards Data Science about Bob Dylan, go [here](https://medium.com/@alexing/bewildering-brain-332d5192e95b).
 
 This whole project has been created using [Python 3](https://www.python.org/downloads/) and [Jupyter Notebook](http://jupyter.org/)
 
