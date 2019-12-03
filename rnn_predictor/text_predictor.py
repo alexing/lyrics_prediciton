@@ -15,7 +15,7 @@ sns.set()
 if len(sys.argv) != 2:
     print("Please select a dataset.")
     print("Usage: python text_predictor.py <dataset>")
-    print("Available datasets: kanye, shakespeare, wikipedia, reuters, hackernews, war_and_peace, sherlock")
+    print("Available datasets: dylan, spinetta, drexler")
     exit(1)
 else:
     dataset = sys.argv[1]
